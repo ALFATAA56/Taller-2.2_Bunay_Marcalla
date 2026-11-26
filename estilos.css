@@ -35,3 +35,42 @@ body {
     color: #1f3ff0;
     font-size: 22px;
 }
+.buscador {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.caja-busqueda {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 0 15px;
+}
+
+.caja-busqueda input {
+    flex: 1;
+    border: none;
+    background: none;
+    outline: none;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+.caja-busqueda button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.idioma {
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 10px;
+    padding: 0 15px;
+    font-weight: bold;
+}
