@@ -4,3 +4,14 @@
     box-sizing: border-box;
 
 }
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: white;
+}
+
+.pagina {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
