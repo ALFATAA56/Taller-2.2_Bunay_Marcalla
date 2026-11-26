@@ -74,3 +74,40 @@ body {
     padding: 0 15px;
     font-weight: bold;
 }
+.palabra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.palabra-titulo {
+    font-size: 48px;
+}
+
+.boton-play {
+    width: 65px;
+    height: 65px;
+    border: none;
+    border-radius: 50%;
+    background-color: #42a5f0;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.subtitulo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.subtitulo::before,
+.subtitulo::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background-color: #ddd;
+}
