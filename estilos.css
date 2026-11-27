@@ -37,7 +37,6 @@ body {
 }
 .buscador {
     display: flex;
-    gap: 15px;
     margin-bottom: 40px;
 }
 
@@ -99,17 +98,19 @@ body {
 .subtitulo {
     display: flex;
     align-items: center;
-    gap: 15px;
     font-size: 20px;
     margin-bottom: 40px;
 }
 
-.subtitulo::before,
-.subtitulo::after {
-    content: "";
+.linea {
     flex: 1;
     height: 1px;
     background-color: #ddd;
+}
+
+.subtitulo-texto {
+    font-size: 20px;
+    margin: 0 15px;
 }
 .lista {
     padding-left: 30px;
